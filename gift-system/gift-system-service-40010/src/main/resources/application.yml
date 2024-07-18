@@ -1,0 +1,19 @@
+server:
+  port: 40010
+spring:
+  application:
+    name: gift-system
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gift_user
+    username: root
+    password: 123456
+mybatis-plus:
+  type-aliases-package: cn.ronghuanet.gift.domain,cn.ronghuanet.gift.query
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:20010/eureka/
+  instance:
+    prefer-ip-address: true  #使用ip注册到Eureka
+    instance-id: gift-system:40010  #指定客户端实例的ID

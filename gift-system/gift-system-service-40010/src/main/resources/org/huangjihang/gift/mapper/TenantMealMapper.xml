@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.huangjihang.gift.mapper.TenantMealMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="org.huangjihang.gift.domain.TenantMeal">
+        <id column="id" property="id" />
+        <result column="meal_id" property="mealId" />
+        <result column="tenant_id" property="tenantId" />
+        <result column="expire_date" property="expireDate" />
+        <result column="state" property="state" />
+    </resultMap>
+
+</mapper>

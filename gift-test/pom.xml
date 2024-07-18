@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.huangjihang</groupId>
-        <artifactId>gift-basic</artifactId>
+        <artifactId>gift-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>gift-basic-codegen</artifactId>
+    <artifactId>gift-test</artifactId>
     <packaging>jar</packaging>
 
-    <name>gift-basic-codegen</name>
+    <name>gift-test</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -24,22 +24,36 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+        <!-- springBoot支持 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!-- springBoot支持 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+        <!--一些工具依赖-->
+        <dependency>
+            <groupId>org.huangjihang</groupId>
+            <artifactId>gift-basic-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>2.2.0</version>
         </dependency>
 
-        <!--模板引擎-->
-        <dependency>
-            <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity-engine-core</artifactId>
-            <version>2.0</version>
-        </dependency>
-
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.huangjihang</groupId>

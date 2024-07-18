@@ -19,6 +19,7 @@
         <module>gift-basic/gift-basic-common</module>
         <module>gift-user/gift-user-common</module>
         <module>gift-user/gift-user-service-40040</module>
+        <module>gift-test</module>
     </modules>
 
     <!--管理一些公共的属性-->
