@@ -14,5 +14,6 @@ spring:
         git:
           uri: https://github.com/HuangGitHubCode/gift-config.git
           username: HuangGitHubCode
-          password: githubHjH20010217.
+          password: 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
+          force-pull: true
           #search-paths: src/main/resources # 如果不是在根路径下面需要加搜索地址
