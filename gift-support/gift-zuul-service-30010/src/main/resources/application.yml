@@ -14,7 +14,7 @@ zuul:
   retryable: true #是否开启重试功能
   routes:
     ribbon:
-      eager-load.enabled: true     # 饥饿加载
+    eager-load.enabled: true     # 饥饿加载
     myUser.serviceId: user-provider #服务名
     myUser.path: /myUser/** #哪个路径
     xxx.serviceId: order-provider #服务名

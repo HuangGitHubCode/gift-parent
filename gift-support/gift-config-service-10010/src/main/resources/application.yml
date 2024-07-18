@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/HuangCodeRepository/gift-config.git
-          username: HuangCodeRepository
-          password: HjH20010217.
+          uri: https://github.com/HuangGitHubCode/gift-config.git
+          username: HuangGitHubCode
+          password: githubHjH20010217.
           #search-paths: src/main/resources # 如果不是在根路径下面需要加搜索地址
