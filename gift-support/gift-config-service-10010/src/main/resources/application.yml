@@ -1,11 +1,6 @@
 server:
   port: 10010
 spring:
-#  rabbitmq:
-#    host: 192.168.1.133
-#    port: 5672
-#    username: admin
-#    password: 123456
   application:
     name: config-server
   cloud:
@@ -14,4 +9,3 @@ spring:
         git:
           uri: https://github.com/HuangGitHubCode/gift-config.git
           force-pull: true
-          #search-paths: src/main/resources # 如果不是在根路径下面需要加搜索地址
