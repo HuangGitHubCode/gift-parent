@@ -1,5 +1,6 @@
 package org.huangjihang.gift.controller;
 
+import com.baomidou.mybatisplus.plugins.Page;
 import org.huangjihang.gift.service.IDepartmentService;
 import org.huangjihang.gift.domain.Department;
 import org.huangjihang.gift.query.DepartmentQuery;

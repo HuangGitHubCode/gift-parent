@@ -1,5 +1,6 @@
 package org.huangjihang.gift.controller;
 
+import com.baomidou.mybatisplus.plugins.Page;
 import org.huangjihang.gift.service.IConfigService;
 import org.huangjihang.gift.domain.Config;
 import org.huangjihang.gift.query.ConfigQuery;

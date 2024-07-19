@@ -1,5 +1,6 @@
 package org.huangjihang.gift.controller;
 
+import com.baomidou.mybatisplus.plugins.Page;
 import org.huangjihang.gift.service.ITenantService;
 import org.huangjihang.gift.domain.Tenant;
 import org.huangjihang.gift.query.TenantQuery;

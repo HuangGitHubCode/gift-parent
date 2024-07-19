@@ -1,5 +1,5 @@
 import Login from './views/Login.vue'
-import RegShop from './views/RegisterShop.vue'
+import RegShop from './views/ShopRegister.vue'
 import NotFound from './views/404.vue'
 import Home from './views/Home.vue'
 import Main from './views/Main.vue'

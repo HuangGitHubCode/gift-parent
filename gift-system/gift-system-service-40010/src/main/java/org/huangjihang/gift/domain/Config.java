@@ -172,4 +172,8 @@ public class Config extends Model<Config> {
         ", remark=" + remark +
         "}";
     }
+
+    public Long getId() {
+        return 0L;
+    }
 }
